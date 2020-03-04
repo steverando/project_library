@@ -51,10 +51,6 @@ if (isset($_POST['admin'])){
     $idNumber    =   mysqli_real_escape_string($conn, $_POST['idNumber']);
 
 
-    if (isset($_POST ["address"])) if ($_POST ["address"] != "") { echo "Your form submission has an error."; exit; }
-
-
-
 
     if (empty($name) || empty($uName) || empty($email) ||
     empty($password) || empty($retype) || empty($gender)
@@ -76,6 +72,7 @@ if (isset($_POST['admin'])){
         echo 'Phonenumber must be a number';
         die();
     }
+    if (isset($_POST ["address"])) if ($_POST ["address"] != "") { echo "Your form submission has an error."; exit; }
 
     $sql    =   "INSERT INTO `admin`(`admin_name`,`user_name`, `email`, `password`,`gender`,`phone_number`,`id_number`)
                 VALUE(' $name ', ' $uName', '$email', '$password', '$gender', '$phone', '$idNumber')";
