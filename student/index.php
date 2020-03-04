@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col col-3">
             </div>
-            <div  class="col col-6">
+            <div  class="col col-6" style="background-image:">
                 <div class="card" style="margin-top:20px;height:60%; background-color: #fcf9f4;">
                     <div class="card-body" style="background-color: #fff8f9 ;color:#ffa500 ;">
                         <form action="" method="post">
@@ -31,14 +31,15 @@
                             <div class="text-center py-4 mt-3">
                                 <button style="border-radius:20px" class="btn" type="submit">Log In</button>
                             </div>
+                            New member? <a href="signup.php">Sign Up</a>
                         </form>
                     </div>
                 </div>
             </div>
             <div  class="col col-3"></div>
         </div>
-        </div>
     </div>
+</div>
 </div>
 
 <?php

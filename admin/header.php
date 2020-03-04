@@ -20,7 +20,7 @@
 </head>
 <body >
 <div class="container-fluid" style="height:100%;">
-    <div class="row topbar" style="background-color:#040485;height:50px;" >
+    <div class="row topbar" style="background-color:grey;height:50px;" >
         <div class="col col-4" style="font-size:30px; font-family:Georgia, serif">
           <li> <i class="fas fa-book-reader"></i> AzaLibrary
         </div>
